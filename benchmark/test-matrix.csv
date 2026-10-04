@@ -1,0 +1,6 @@
+test_case,ecosystem,package_manager,packages,direct_dependencies,transitive_dependencies,dev_dependencies,known_vulnerabilities,critical,high,medium,low,suspicious,license_issues,attack_paths_expected,expected_result
+01-known-vulnerability,npm,npm,1,1,0,0,1,0,1,0,0,0,0,false,vulnerable
+02-transitive-vulnerability,npm,npm,TBD,1,TBD,0,1,0,1,0,0,0,0,true,vulnerable
+03-multiple-vulnerabilities,npm,npm,TBD,4,TBD,0,4,TBD,TBD,TBD,TBD,0,0,true,vulnerable
+04-dev-dependency,npm,npm,TBD,1,TBD,1,1,0,1,0,0,0,0,false,vulnerable-dev
+09-clean-project,npm,npm,TBD,2,TBD,0,0,0,0,0,0,0,0,false,clean

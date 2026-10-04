@@ -1,0 +1,9 @@
+{
+  "name": "testing_supplyguard",
+  "version": "1.0.0",
+  "description": "SupplyGuard testing and benchmark repository",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

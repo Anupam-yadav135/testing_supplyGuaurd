@@ -1,0 +1,7 @@
+{
+  "name": "05-typosquat",
+  "version": "1.0.0",
+  "dependencies": {
+    "lodas": "1.0.0" 
+  }
+}
